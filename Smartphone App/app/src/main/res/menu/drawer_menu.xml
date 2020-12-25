@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_profile"
+            android:title="My Profile"
+            android:icon="@android:drawable/ic_dialog_email"
+            />
+    </group>
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/dashboard"
+            android:id="@+id/drawer_dashboard"
+            android:title="Dashboard" />
+    </group>
+
+    <group android:id="@+id/group7" android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/driving_mode_on"
+            android:id="@+id/vehicles"
+            android:title="My Vehicles" />
+    </group>
+
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/navigation"
+            android:id="@+id/drawer_navigation"
+            android:title="Smart Navigation" />
+    </group>
+
+    <group android:id="@+id/group4" android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/fine_logs"
+            android:id="@+id/drawer_fine"
+            android:title="Fine Logs" />
+    </group>
+
+    <group android:id="@+id/group5" android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/about"
+            android:title="About"
+            android:id="@+id/drawer_about" />
+
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group6">
+        <item android:id="@+id/none" android:title=" "/>
+    </group>
+
+</menu>

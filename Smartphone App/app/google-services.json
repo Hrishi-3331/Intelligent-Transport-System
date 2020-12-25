@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "376259354893",
+    "firebase_url": "https://connectedvehicle-98885.firebaseio.com",
+    "project_id": "connectedvehicle-98885",
+    "storage_bucket": "connectedvehicle-98885.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376259354893:android:ca93834ba074e3321c5044",
+        "android_client_info": {
+          "package_name": "com.hrishistudio.vnit.connectedvehicle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376259354893-pg33e8p993293dcs3uir6jmabckba7md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hrishistudio.vnit.connectedvehicle",
+            "certificate_hash": "a29d011c1869412f9ca9ef8133b580db99419611"
+          }
+        },
+        {
+          "client_id": "376259354893-im62nk9u9jq19u6ll8goftedlda4n39a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt6-A7Sk0cHpG3cPq4SNkTY-qi7acYgZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376259354893-im62nk9u9jq19u6ll8goftedlda4n39a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

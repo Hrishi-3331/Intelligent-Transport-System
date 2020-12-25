@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/light_frame"
+    android:padding="8dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vehicle_card_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helveticaneue_medium"
+            android:text="Maruti Suzuki Alto"
+            android:padding="10dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helveticaneue_medium"
+            android:text="Registration No."
+            android:padding="10dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/vehicle_card_registration"
+            android:layout_marginTop="-12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helveticaneue_black_cond"
+            android:text="MH 42 V 6888"
+            android:padding="10dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/car_card"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helveticaneue_medium"
+            android:text="Vehicle Class"
+            android:padding="10dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/vehicle_card_class"
+            android:layout_marginTop="-12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helveticaneue_black_cond"
+            android:text="Motor Car (2)"
+            android:padding="10dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helveticaneue_medium"
+            android:text="Reg. Date:"
+            android:padding="10dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/vehicle_card_reg_date"
+            android:layout_marginTop="-12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helveticaneue_black_cond"
+            android:text="18/11/2014"
+            android:padding="10dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helveticaneue_medium"
+            android:text="Engine No.:"
+            android:padding="10dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/vehicle_card_engine"
+            android:layout_marginTop="-12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/helveticaneue_black_cond"
+            android:text="OG3BBXXX"
+            android:padding="10dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

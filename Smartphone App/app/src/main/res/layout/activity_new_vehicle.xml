@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/new_vehicle_coordinator"
+    tools:context=".NewVehicle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/fancy_home_button"
+                android:gravity="center"
+                android:onClick="goBack">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/back"
+                    app:tint="@android:color/white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/helveticaneuebold"
+                android:padding="12dp"
+                android:text="Add New Vehicle"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:paddingTop="6dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:fontFamily="@font/helveticaneue_medium"
+                android:textColor="@android:color/white"
+                android:text="Registration No.:"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:id="@+id/vehicle_reg_number"
+                android:background="@drawable/inputbox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@android:color/white"
+                android:hint="Vehicle Registration Number"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="15sp"
+                android:padding="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:paddingTop="6dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:fontFamily="@font/helveticaneue_medium"
+                android:textColor="@android:color/white"
+                android:text="Model Name :"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:id="@+id/vehicle_model"
+                android:background="@drawable/inputbox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@android:color/white"
+                android:hint="Vehicle Model Name"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="15sp"
+                android:padding="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:paddingTop="6dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:fontFamily="@font/helveticaneue_medium"
+                android:textColor="@android:color/white"
+                android:text="Engine No.:"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:id="@+id/vehicle_engine"
+                android:background="@drawable/inputbox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@android:color/white"
+                android:hint="Vehicle Engine Number"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="15sp"
+                android:padding="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:paddingTop="6dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:fontFamily="@font/helveticaneue_medium"
+                android:textColor="@android:color/white"
+                android:text="Registration Date:"
+                android:textSize="13sp"/>
+
+            <EditText
+                android:inputType="date"
+                android:id="@+id/vehicle_reg_date"
+                android:background="@drawable/inputbox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:textColor="@android:color/white"
+                android:hint="Vehicle Registration Date"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="15sp"
+                android:padding="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbutton"
+            android:onClick="registerVehicle"
+            android:text="Add Vehicle"
+            android:fontFamily="@font/helveticaneuebold"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

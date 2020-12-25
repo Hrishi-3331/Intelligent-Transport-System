@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConnectedVehicle</string>
+    <string name="ask_signup">Don\'t have an account? <b>Signup here</b></string>
+    <string name="ask_login">Existing User? <b>Login here</b></string>
+</resources>
